@@ -1,0 +1,1668 @@
+.container-pq{
+    display: none;
+}
+
+.cadastro{
+    background-color: red;
+    height: 200px;
+
+}
+
+.cadastro-pagamento{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 150px;
+    border: black solid 1px;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cadastro-rodape{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+
+}
+
+.cad-concluido{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cad-concluido2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-comprar{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.titulo-cadastro{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.btn-enviar {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+
+.bg{
+    background-image:url("../img/1920x1080.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: auto;
+}
+
+.select_titulo{
+    color: black;
+    font-family: sans-serif;
+	font-size: 1em;
+	text-align: left;
+	padding-top: 0px;
+}
+
+
+.titulo{
+    width: 230px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 50px;
+    
+}
+
+.roda-vermelha{
+    width: 100px;
+    height: auto;
+    padding-top: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 110px;
+    margin-left: -70px;
+    
+}
+
+.rosto-alberto{
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+
+.super-heroi{
+    width: 270px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -140px;
+}
+
+.capa-livro{
+    width: 200px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 10px;
+   
+}
+
+
+p{
+    width: 110%;
+    font-size: 0.7rem;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.texto-2{
+    text-align: center;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+
+
+@media(max-width: 1366px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+    .bg{
+        background-image:url("../img/1366x768.png"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin-top: 140px;
+        margin-left: 0px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-top: 120px;
+        margin-left: -120px;
+        
+    }
+    
+    .rosto-alberto{
+        width: 180px;
+        height: auto;
+        display: block;
+        margin-top: 100px;
+        margin-left: 250px;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+        
+    .capa-livro{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+       
+    }
+    
+    
+    p{
+        width: 100%;
+        font-size: 0.7rem;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 80%;
+        font-size: 0.6rem;
+        margin-top: 80px;
+        margin-left: 120px;
+        position: relative;
+        z-index: 3;
+    }
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: -100px;
+      }
+
+      .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 0px;
+        margin-left: 0px;
+       
+      }
+
+}
+
+@media(max-width: 1360px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: -30px;
+      }
+    .bg{
+        background-image:url("../img/1360x768.png"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 90px;
+        margin-left: 0px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: -90px;
+        
+    }
+    
+    .rosto-alberto{
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-top: 40px;
+        margin-left: 100px;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+        
+    .capa-livro{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+       
+    }
+   
+    
+    p{
+        width: 100%;
+        font-size: 0.6rem;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width:80%;
+        font-size: 0.6rem;
+        margin-top: 10px;
+        margin-left: 100px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 0px;
+        margin-left: 0px;
+       
+      }
+        
+}
+
+
+
+@media(max-width: 1281px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+    .bg{
+        background-image:url("../img/1280x800.png"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo{
+        width: 230px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 150px;
+        margin-left: 0px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        padding-top: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 140px;
+        margin-left: -130px;
+        
+    }
+    
+    .rosto-alberto{
+        width: 190px;
+        height: auto;
+        display: block;
+        margin-top: 30px;
+        margin-left: 50px;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+        
+    .capa-livro{
+        width: 210px;
+        height: auto;
+        margin-top: -70px;
+        margin-left: 20px;
+       
+    }
+   
+    .logo{
+        float: right;
+        margin-top: -50px;
+    }
+    
+    p{
+        width: 113%;
+        font-size: 0.7rem;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 80%;
+        font-size: 0.7rem;
+        margin-top: -60px;
+        margin-left: 70px;
+        position: relative;
+        z-index: 3;
+    }
+
+}
+
+@media(max-width: 1024px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+    .bg{
+        background-image:url("../img/1024x768.png"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo{
+        width: 180px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        margin-left: 0px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 80px;
+        height: auto;
+        padding-top: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: -120px;
+        
+    }
+    
+    .rosto-alberto{
+        width: 150px;
+        height: auto;
+        display: block;
+        margin-top: -40px;
+        margin-left: 0px;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+        
+    .capa-livro{
+        width: 180px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+       
+    }
+    
+
+    
+    p{
+        width:100%;
+        font-size: 0.6em;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.6rem;
+        margin-top: -40px;
+        margin-left: 0px;
+        position: relative;
+        z-index: 3;
+    }
+
+  
+}
+
+
+@media(max-width: 822px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -150px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 80px;
+       
+    }
+  
+    }
+
+
+    @media(max-width: 812px){
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            margin-top: 0px;
+          }
+   
+        .container{
+            display: none;
+        }
+        
+        .container-pq{
+            display: block;
+            margin: 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        .bg{
+            background: white; 
+            width: 100%;
+            height: auto;
+        }
+    
+        
+        .titulo{
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            
+        }
+        
+        .roda-vermelha{
+            width: 100px;
+            height: auto;
+            display: block;
+            margin-left: -150px;
+            margin-top: 30px;
+        
+            
+        }
+        
+        .rosto-alberto{
+            width: 220px;
+            height: auto;
+            display: block;
+            margin-top: 0px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            
+        }
+        
+        .logo{
+            float: right;
+            margin-top: 50px;
+        }
+        
+        p{
+            width: 100%;
+            font-size: 0.8rem;
+            margin-top: 0px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .texto-2{
+            text-align: center;
+            width: 100%;
+            font-size: 0.8rem;
+            margin-top: -70px;
+            margin: auto;
+            position: relative;
+            z-index: 3;
+        }
+        
+        
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+        }
+    
+        .capa-livro-pq{
+            width: 200px;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 250px;
+           
+        }
+        .btn-danger {
+            color: #fff;
+            background-color: #dc3545;
+            border-color: #dc3545;
+            margin-top: 50px;
+            margin-left: 300px;
+            margin-bottom: 30px;
+          }
+    
+        }
+    
+
+
+
+@media screen and (max-width: 768px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -150px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 250px;
+       
+    }
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 50px;
+        margin-left: 300px;
+        margin-bottom: 30px;
+      }
+
+}
+
+@media(max-width: 736px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -120px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 230px;
+       
+    }
+
+    }
+
+
+
+@media(max-width: 732px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -120px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 240px;
+       
+    }
+  
+    }
+    
+
+
+@media(max-width: 667px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -120px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 200px;
+       
+    }
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 50px;
+        margin-left: 230px;
+      }
+    }
+    
+
+
+@media(max-width: 640px){
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -100px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+    
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 230px;
+       
+    }
+   
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 50px;
+        margin-left: 230px;
+        margin-bottom: 30px;
+      }
+    }
+    
+
+
+
+
+
+@media(max-width: 415px){
+
+    .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: 0px;
+      }
+   
+    .container{
+        display: none;
+    }
+    
+    .container-pq{
+        display: block;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+  
+
+    .bg{
+        background: white; 
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .titulo{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .roda-vermelha{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: -30px;
+        margin-top: 30px;
+    
+        
+    }
+    
+    .rosto-alberto{
+        width: 220px;
+        height: auto;
+        display: block;
+        margin-top: 0px;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+    
+    .logo{
+        float: right;
+        margin-top: 50px;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .texto-2{
+        text-align: center;
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: -70px;
+        margin: auto;
+        position: relative;
+        z-index: 3;
+    }
+
+ 
+   
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 0px;
+    }
+    .capa-livro-pq{
+        width: 200px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 100px;
+       
+    }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-bottom: 30px;
+      }
+
+ 
+    }
+    
+    
+    @media(max-width: 376px){
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            margin-top: 0px;
+          }
+        
+        .titulo{
+            width: 160px;
+            height: auto;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            
+        }
+        
+        .roda-vermelha{
+            width: 90px;
+            height: auto;
+            display: block;
+            margin-left: -50px;
+            margin-top: 0px;
+        
+            
+        }
+        
+        .rosto-alberto{
+            width: 220px;
+            height: auto;
+            display: block;
+            margin-top: 0px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            
+        }
+        
+        
+        
+        .logo{
+            float: right;
+            margin-top: 50px;
+        }
+        
+        p{
+            width: 90%;
+            font-size: 0.9rem;
+            margin-top: 0px;
+            text-align: center;
+        }
+        
+        .texto-2{
+            text-align: center;
+            width: 90%;
+            font-size: 0.8rem;
+            margin-top: -50px;
+            position: relative;
+            z-index: 3;
+
+        }
+        .capa-livro-pq{
+            width: 200px;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 65px;
+           
+        }
+        .btn-danger {
+            color: #fff;
+            background-color: #dc3545;
+            border-color: #dc3545;
+            margin-top: 50px;
+            margin-left: 105px;
+            margin-bottom: 30px;
+          }
+    }
+
+        @media(max-width: 360px){
+       
+            .row {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+                margin-top: 0px;
+              }
+        
+            .titulo{
+                width: 160px;
+                height: auto;
+                display: block;
+                margin: auto;
+                margin-top: 30px;
+                
+            }
+            
+            .roda-vermelha{
+                width: 90px;
+                height: auto;
+                display: block;
+                margin-left: -50px;
+                margin-top: 0px;
+            
+                
+            }
+            
+            .rosto-alberto{
+                width: 220px;
+                height: auto;
+                display: block;
+                margin-top: 0px;
+                margin: auto;
+                position: relative;
+                z-index: 1;
+                
+            }
+            
+            
+            .logo{
+                float: right;
+                margin-top: 50px;
+            }
+            
+            p{
+                width: 90%;
+                font-size: 0.9rem;
+                margin-top: 0px;
+                text-align: center;
+            }
+            
+            .texto-2{
+                text-align: center;
+                width: 90%;
+                font-size: 0.8rem;
+                margin-top: -50px;
+                position: relative;
+                z-index: 3;
+    
+            }
+            
+        
+        
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+        }
+        .capa-livro-pq{
+            width: 200px;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 70px;
+           
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #dc3545;
+            border-color: #dc3545;
+            margin-top: 50px;
+            margin-left: 90px;
+            margin-bottom: 30px;
+          }
+    
+    }
+    
+    
+    @media(max-width: 320px){
+     
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            margin-top: 0px;
+          }
+
+        .titulo{
+            width: 140px;
+            height: auto;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            
+        }
+        
+        .roda-vermelha{
+            width: 70px;
+            height: auto;
+            display: block;
+            margin-left: -40px;
+            margin-top: 0px;
+        
+            
+        }
+        
+        .rosto-alberto{
+            width: 220px;
+            height: auto;
+            display: block;
+            margin-top: 0px;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+            
+        }
+        
+    
+        .logo{
+            float: right;
+            margin-top: 50px;
+        }
+        
+        p{
+            width: 100%;
+            font-size: 0.9rem;
+            margin-top: 0px;
+            text-align: center;
+        }
+        
+        .texto-2{
+            text-align: center;
+            width: 100%;
+            font-size: 0.8rem;
+            margin-top: -50px;
+            position: relative;
+            z-index: 3;
+        }
+        
+        
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+        }
+        .capa-livro-pq{
+            width: 200px;
+            height: auto;
+            margin-top: 0px;
+            margin-left: 50px;
+           
+        }
+    
+    
+    
+    .col-form{
+        margin-top: 0px;
+    }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 50px;
+        margin-left: 85px;
+        margin-bottom: 30px;
+      }
+    }

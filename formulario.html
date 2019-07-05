@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Boostrap -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="css/livro_alberto.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+		<script src="js/cep.js"></script>
+		<script src="js/mask.js"></script>
+		<script src="js/mask-cpf.js"></script>
+
+		
+</head>
+
+<body>
+
+
+	<div class="cadastro" class="col-12">
+		<h1 class="titulo-cadastro">Faça seu Cadastro</h1>
+	</div>
+
+
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+	<input type="hidden"  name="recipient" value="bmi.financeiro@bluemanagement.institute"> <!-- Pode ser qualquer endereço de email -->
+	<input type="hidden"  name="redirect" value="http://nexialistas.com/livro/pagamento.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+	<input type="hidden"  name="subject" value="Compra de Novo Livro Alberto Roitman">  <!-- Assunto da mensagem -->
+	<input type="hidden"  name="email" value="bmi.financeiro@bluemanagement.institute">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+	
+			<div class="form-group">
+			  <label>Nome Completo</label>
+			  <input type="text" required name=nome class="form-control">
+			</div>
+
+			<div class="form-group">
+			  <label>CPF/CNPJ</label>
+			  <input id="cpfOuCnpj" required name=CPF/CNPJ  type="text" class="form-control">
+			 </div>
+
+			 <div class="form-group">
+				<label>Email</label>
+				<input type="email" required name=Email class="form-control">
+			  </div>
+
+
+				<div class="form-group">
+				<label>Celular</label>
+				<input type="text" class="form-control" placeholder="(nn) n nnnn nnnn" id="telefone" required name="telefone" >
+			  </div>
+
+			  <div class="form-group">
+				<label>CEP</label>
+				<input id="vendas_cep" placeholder="Digite seu CEP" required name="cep" class="form-control" class="mb-3"  pattern="\d*" maxlength="9" type="text">
+			  </div>
+
+			  <div class="form-group">
+				<label>Rua</label>
+				<input id="vendas_logradouro" type="text" name="Rua" class="form-control">
+			  </div>
+
+
+			  <div class="form-group">
+					<label>Nº</label>
+					<input id="vendas_numero" type="text"  required name="N" class="form-control">
+				  </div>
+
+				  <div class="form-group">
+						<label>Bairro</label>
+						<input id="vendas_bairro" type="text" name="Bairro" class="form-control">
+					  </div>
+
+					  <div class="form-group">
+							<label>Cidade</label>
+							<input id="vendas_cidade" type="text" name="Cidade" class="form-control">
+						  </div>
+
+						  <div class="form-group">
+								<label>UF</label>
+								<input id="vendas_uf" type="text" name="UF" class="form-control">
+						  </div>	
+						
+						<button class="btn btn-primary" type="submit">Cadastrar</button>
+
+						<br><br>
+								
+						</form> 
+
+						<div class="cadastro-rodape" class="col-12">	</div>
+					
+					
+</body>				
+</html>
